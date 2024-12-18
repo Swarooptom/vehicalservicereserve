@@ -1,0 +1,104 @@
+/* General Page Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Container Box */
+.container {
+    background: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Form Section */
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+.or-text {
+    text-align: center;
+    margin: 15px 0;
+    font-style: italic;
+    color: #777;
+}
+
+/* Buttons */
+.btn {
+    background-color: #141313;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #141313;
+}
+
+/* OTP Input */
+.otp-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.otp-input input {
+    width: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Links and Options */
+.links, .alt-option {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.links a, .alt-option a {
+    color: #c0bcbc;
+   Â text-decoration
